@@ -1,0 +1,6 @@
+{
+    "name": "project_name",
+    "repo_name": "{{ cookiecutter.name }}",
+    "short_description": "A simple {{ cookiecutter.name }} implementation for Python3",
+    "version": "0.0.1"
+}
