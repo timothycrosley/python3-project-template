@@ -1,8 +1,8 @@
-"""{{ cookiecutter.name }}/__init__.py
+"""tests/test_{{ cookiecutter.name }}.py.
 
-{{ cookiecutter.short_description }}
+Tests the Python3 implementation of {{ cookiecutter.name }}
 
-Copyright (C) 2015  Timothy Edmund Crosley
+Copyright (C) 2015 Timothy Edmund Crosley
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
 documentation files (the "Software"), to deal in the Software without restriction, including without limitation
@@ -19,4 +19,11 @@ CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFT
 OTHER DEALINGS IN THE SOFTWARE.
 
 """
-__version__ = "{{ cookiecutter.version }}"
+import pytest
+
+import {{ cookiecutter.name }}
+
+
+def test_{{ cookiecutter.name }}():
+    '''Test to ensure {{ cookiecutter.name }} works as expected'''
+    assert {{ cookiecutter.name }}
