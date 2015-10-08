@@ -9,8 +9,6 @@
 
 {{ cookiecutter.short_description }}
 
-Hug's Design Objectives:
-
 [![{{ cookiecutter.name }} Example](https://raw.github.com/timothycrosley/{{ cookiecutter.repo_name }}/develop/example.gif)](https://github.com/timothycrosley/{{ cookiecutter.repo_name }}/blob/develop/examples/example.py)
 
 
@@ -26,10 +24,10 @@ pip3 install {{ cookiecutter.name }} --upgrade
 Ideally, within a virtual environment.
 
 
-Why Hug?
+Why {{ cookiecutter.name }}?
 ===================
 
-{{ hug.short_description }}
+{{ cookiecutter.short_description }}
 
 --------------------------------------------
 
