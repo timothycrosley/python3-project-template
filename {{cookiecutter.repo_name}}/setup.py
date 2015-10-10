@@ -61,13 +61,13 @@ try:
 except (IOError, ImportError, OSError, RuntimeError):
    readme = ''
 
-setup(name='hug',
+setup(name='{{ cookiecutter.name }}',
       version='{{ cookiecutter.version }}',
       description='{{ cookiecutter.short_description }}',
       long_description=readme,
       author='Timothy Crosley',
       author_email='timothy.crosley@gmail.com',
-      url='https://github.com/timothycrosley/hug',
+      url='https://github.com/timothycrosley/{{ cookiecutter.name }}',
       license="MIT",
       # entry_points={
       #  'console_scripts': [
