@@ -58,12 +58,14 @@ atlassian-ide-plugin.xml
 .ropeproject/
 
 # Python3 Venv Files
+.venv/
 bin/
 include/
 lib/
 lib64
 pyvenv.cfg
 share/
+venv/
 
 # Cython
 *.c
