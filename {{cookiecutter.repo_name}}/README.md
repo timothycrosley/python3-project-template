@@ -1,4 +1,4 @@
-![{{ cookiecutter.name }}](https://raw.github.com/timothycrosley/{{ cookiecutter.repo_name }}/develop/logo.png)
+![{{ cookiecutter.name }}](https://raw.github.com/timothycrosley/{{ cookiecutter.repo_name }}/develop/artwork/logo.png)
 ===================
 
 [![PyPI version](https://badge.fury.io/py/{{ cookiecutter.name }}.svg)](http://badge.fury.io/py/{{ cookiecutter.name }})
@@ -9,7 +9,7 @@
 
 {{ cookiecutter.short_description }}
 
-[![{{ cookiecutter.name }} Example](https://raw.github.com/timothycrosley/{{ cookiecutter.repo_name }}/develop/example.gif)](https://github.com/timothycrosley/{{ cookiecutter.repo_name }}/blob/develop/examples/example.py)
+[![{{ cookiecutter.name }} Example](https://raw.github.com/timothycrosley/{{ cookiecutter.repo_name }}/develop/artwork/example.gif)](https://github.com/timothycrosley/{{ cookiecutter.repo_name }}/blob/develop/examples/example.py)
 
 
 Installing {{ cookiecutter.name }}
