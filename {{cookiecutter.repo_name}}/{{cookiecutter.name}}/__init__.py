@@ -19,4 +19,6 @@ CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFT
 OTHER DEALINGS IN THE SOFTWARE.
 
 """
-__version__ = "{{ cookiecutter.version }}"
+from {{ cookiecutter.name }}._version import current
+
+__version__ = current
